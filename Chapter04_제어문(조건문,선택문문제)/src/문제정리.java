@@ -25,7 +25,7 @@
  *     ----------------------------------------------------
  *     다중조건문 => 115p
  *     
- */
+ */ 
 public class 문제정리 { 
 
 	public static void main(String[] args) {
