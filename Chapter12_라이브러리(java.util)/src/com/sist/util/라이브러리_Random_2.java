@@ -48,4 +48,4 @@ public class 라이브러리_Random_2 {
 		}
 	}
 
-}
+} 
