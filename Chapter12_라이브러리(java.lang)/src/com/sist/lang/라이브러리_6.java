@@ -1,4 +1,4 @@
-package com.sist.lang;
+package com.sist.lang; 
 //수학 클래스 => Math
 /*
  *  Math => 모든 메소드가 static으로 되어있다

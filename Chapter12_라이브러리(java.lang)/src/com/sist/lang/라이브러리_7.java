@@ -1,4 +1,4 @@
-package com.sist.lang;
+package com.sist.lang; 
 //System
 /*
  *   프로그램 종료   /    입출력    /    메모리 회수 => static

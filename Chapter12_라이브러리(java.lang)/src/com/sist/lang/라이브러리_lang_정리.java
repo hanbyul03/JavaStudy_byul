@@ -87,7 +87,7 @@ package com.sist.lang;
  *                   월 : MM / M
  *                       1~9
  *                       01   1
- *                       10   10
+ *                       10   10 
  *                   일 : dd / d
  *                  시간 : hh / h
  *                   분 : mm / m 
