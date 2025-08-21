@@ -7,6 +7,8 @@ public class EmpDAO {
   private final String URL="jdbc:oracle:thin:@211.238.142.124:1521:XE";
   private static EmpDAO dao;
   // 싱글턴 => static : 디자인 패턴 
+
+  
   
   
   
