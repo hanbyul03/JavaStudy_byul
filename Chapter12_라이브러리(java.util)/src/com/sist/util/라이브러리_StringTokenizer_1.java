@@ -45,7 +45,7 @@ public class 라이브러리_StringTokenizer_1 {
 //			System.out.println(i+"' 색상:"+st.nextToken());
 //		}
 		int i=1;
-		while(st.hasMoreTokens())
+		while(st.hasMoreTokens()) 
 		{
 			System.out.println(i+"' 색상:"+st.nextToken());
 			i++;

@@ -25,7 +25,7 @@ public class 라이브러리_StringTokenizer_2 {
 				System.out.println(id+"님이 "+loc+"에 입장하셨습니다");
 			  }
 			  break;
-			  case 200:
+			  case 200: 
 			  {
 				  String roomName=st.nextToken();
 				  String inwon=st.nextToken();

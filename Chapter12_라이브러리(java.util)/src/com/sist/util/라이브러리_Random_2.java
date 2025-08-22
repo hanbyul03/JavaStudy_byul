@@ -33,7 +33,7 @@ public class 라이브러리_Random_2 {
 			{
 				if(reserve[i]==reserve[j])
 				{
-					i--;
+					i--; 
 					break;
 				}
 			}
