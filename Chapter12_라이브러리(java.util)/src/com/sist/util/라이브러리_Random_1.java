@@ -30,4 +30,4 @@ public class 라이브러리_Random_1 {
 		System.out.println(Arrays.toString(lotto));
 	}
 
-} 
+}  
