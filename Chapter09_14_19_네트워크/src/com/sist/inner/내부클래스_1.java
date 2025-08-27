@@ -14,7 +14,7 @@ package com.sist.inner;
  *  1) 멤버 클래스
  *     class A
  *     {
- *     }
+ *     } 
  *     class B
  *     {
  *         A a=new A(); // has-a (포함클래스)
