@@ -32,7 +32,7 @@ import java.net.*;
   *        
  */
 public class Server implements Runnable{
-    // 접속을 담당하는 소켓 
+	// 접속을 담당하는 소켓 
 	private ServerSocket ss;
 	private final int PORT=13579;
 	// 저장 공간 
@@ -63,10 +63,10 @@ public class Server implements Runnable{
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        Server server=new Server();
-        new Thread(server).start();
+		Server server=new Server();
+		new Thread(server).start();
 	}
-    // 통신을 담당하는 쓰레드 
+	// 통신을 담당하는 쓰레드 
 	class Client extends Thread
 	{
 		Socket s;// 연결 기기 => 핸드폰 
@@ -79,7 +79,7 @@ public class Server implements Runnable{
 				this.s=s;
 				out=s.getOutputStream();
 				in=new BufferedReader(
-					new InputStreamReader(s.getInputStream()));
+						new InputStreamReader(s.getInputStream()));
 				
 			}catch(Exception ex) {}
 		}
