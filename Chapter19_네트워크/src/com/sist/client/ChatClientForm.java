@@ -86,6 +86,8 @@ implements ActionListener,Runnable{
 				return;
 			}
 			
+			
+			
 			try
 			{
 				out.write(("["+name+"]"+msg+"\n").getBytes());
