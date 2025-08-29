@@ -87,7 +87,7 @@ public class Server implements Runnable{
 			try
 			{
 				while(true)
-				{
+				{ 
 					// 클라이언트가 전송한 채팅 문자열 받기
 					String msg=in.readLine();
 					for(Client c:waitVc)
