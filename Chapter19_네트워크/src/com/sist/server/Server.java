@@ -66,7 +66,7 @@ public class Server implements Runnable{
 		new Thread(server).start();
 	}
 	// 통신을 담당하는 쓰레드 
-	class Client extends Thread
+	class Client extends Thread 
 	{
 		Socket s;// 연결 기기 => 핸드폰 
 		OutputStream out; // 송신 ==> write

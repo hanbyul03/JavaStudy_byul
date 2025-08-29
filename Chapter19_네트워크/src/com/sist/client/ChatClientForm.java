@@ -55,7 +55,7 @@ implements ActionListener,Runnable{
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub 
+		// TODO Auto-generated method stub  
 		if(e.getSource()==b1)
 		{
 			name=JOptionPane.showInputDialog("이름 입력:");
