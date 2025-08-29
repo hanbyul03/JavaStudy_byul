@@ -20,4 +20,4 @@ public class MemberVO {
   private String addr2;
   private int login;
   private String msg;
-}
+} 

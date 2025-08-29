@@ -165,7 +165,7 @@ public class MemberDAO {
 			  {
 				  vo.setMsg("NOPWD");
 			  }
-			  
+			   
 			  
 		  }
 		  
